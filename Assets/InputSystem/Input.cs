@@ -92,7 +92,7 @@ public partial class @Input : IInputActionCollection2, IDisposable
                     ""id"": ""16976bb3-c94f-4298-bccc-2d78e06c5ba4"",
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Invert"",
                     ""groups"": """",
                     ""action"": ""Look"",
                     ""isComposite"": false,

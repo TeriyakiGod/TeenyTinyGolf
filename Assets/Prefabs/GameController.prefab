@@ -44,8 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 911c177fa8838a64b84a3ae94d4214ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputSettings:
-    mouseSensitivity: 0.1
-  debug: {fileID: 0}
-  ballObject: {fileID: 0}
-  clubObject: {fileID: 0}
+  audioController: {fileID: 0}
+  player:
+    ball: {fileID: 0}
+    camera: {fileID: 0}
+    powerMultiplier: 50
+  guide:
+    guideLength: 30
+    lineRenderer: {fileID: 0}
+  scoreDisplay: {fileID: 0}
+  powerBar: {fileID: 0}
+  startPosition: {x: 0, y: 1.5, z: 0}

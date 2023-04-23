@@ -12,8 +12,6 @@ public class PowerBar : MonoBehaviour
         {
             this.value = Mathf.Clamp(value, minValue, maxValue);
             bar.transform.localScale = new Vector3(1, this.value, 1);
-            //Color the bar based on the value
-            //use a gradient
             bar.color = Color.Lerp(Color.red, Color.green, this.value);
         }
     }
